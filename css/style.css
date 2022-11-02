@@ -1,0 +1,28 @@
+.all-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(8,59,76);
+}
+
+h1 {
+    color: white;
+}
+
+.container {
+    background-color: green;
+}
+
+.scacchiera {
+    border: 2px solid violet;
+    display: flex;
+    flex-wrap: wrap;
+}
+.quadrato {
+    width: calc(100% / 7);
+    aspect-ratio: 1 / 1;
+    display: inline-block;
+    border: 1px solid red;
+}
+
+
+
