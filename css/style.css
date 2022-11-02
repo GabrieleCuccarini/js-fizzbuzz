@@ -1,28 +1,39 @@
-.all-container {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(8,59,76);
-}
-
 h1 {
     color: white;
-}
-
-.container {
-    background-color: green;
+    font-size: 70px;
 }
 
 .scacchiera {
-    border: 2px solid violet;
+    gap: 1vw;
     display: flex;
     flex-wrap: wrap;
 }
+
 .quadrato {
-    width: calc(100% / 7);
+    width: calc((100% / 7) - 1vw) ;
     aspect-ratio: 1 / 1;
-    display: inline-block;
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+body {
+    font-weight: bold;
+    background-color: rgb(8,59,76)
+}
 
+.base-color {
+    background-color: rgb(19,137,178)
+}
 
+.fizzbuzz-color {
+    background-color: rgb(240,70,111)
+}
+
+.buzz-color {
+    background-color: rgb(255,209,102)
+}
+
+.fizz-color {
+    background-color: rgb(12,214,161)
+}
